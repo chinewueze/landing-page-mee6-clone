@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+html {
+  /*definition of 1rem*/
+  /* font-size: 52.5%; */
+  /*1rem = 10px, 10/16 = 62.5%*/
+
+  scroll-behavior: smooth;
+
+  transition: all 500ms;
+}
